@@ -1,0 +1,31 @@
+.body p{
+    line-height: 2.4em;
+    font-size: 16px;
+    font-weight: 300;
+}
+.body p img{
+    display: block;
+    margin: 0 auto;
+    max-width: 70%;
+    min-width: 40%;
+}
+.body pre, .body pre code{
+    width: 100%;
+}
+.body pre{
+    margin: 20px 0;
+}
+.body pre code{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #004ea4;
+}
+.bg-white{
+    background: #fff;
+}
+@media only screen and (max-width: 1000px) {
+    .body p img{
+        max-width: 100%;
+    }
+  }
